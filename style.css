@@ -1,18 +1,27 @@
-h1{
-    color: chocolate;
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+body{
+    font-family: 'Do Hyeon', sans-serif;
 }
 div{
     border: 1px solid black;
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    margin-right: 20px;
+    height: 250px;
+    width: 250px;
     text-align: center;
-    line-height: 100px;
+    margin:2px ;
+    padding: 2px;
+    display: inline-block;
 }
-#box4{
-    background-color: blue;
+img{
+    height: 70%;
+
 }
-.redbox{
-    background-color: red;
+#heading{
+    color: darkgreen;
+}
+.green-box{
+    background-color: lightgreen;
+}
+section h2{
+    color: red;
 }
